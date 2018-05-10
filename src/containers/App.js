@@ -2,12 +2,24 @@ import React from 'react';
 import uuid from 'uuid';
 import style from '../styles/App.css';
 import Title from '../components/Title';
+import TodoList from '../components/TodoList';
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: []
+            data: [
+                {
+                    id: 1,
+                    text: 'clean room'
+                }, {
+                    id: 2,
+                    text: 'wash the dishes'
+                }, {
+                    id: 3,
+                    text: 'feed my cat'
+                }
+            ]
         };
     }
 
@@ -22,13 +34,14 @@ class App extends React.Component {
 
     removeTodo(id) {
         const remainder = this.state.data.filter(todo => todo.id !== id);
-        this.setState({ data: remainder });
+        this.setState({data: remainder});
     }
 
     render() {
         return (
             <div className={style.TodoApp}>
                 <Title title="List of tasks to DO" number={this.state.data.length}/>
+                <TodoList data={this.state.data} remove={this.removeTodo.bind(this)}/>
             </div>
         );
     }
