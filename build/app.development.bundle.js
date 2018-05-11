@@ -78,7 +78,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".rsqzJuBtHOxUdmSbZOCyE {\\r\\n    background-color: #f5f5f5;\\r\\n    color: #222;\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n    flex-wrap: wrap;\\r\\n    justify-content: center;\\r\\n    align-items: center;\\r\\n    align-content: center;\\r\\n    width: 99vw;\\r\\n    height: 98vh;\\r\\n}\\r\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"TodoApp\": \"rsqzJuBtHOxUdmSbZOCyE\"\n};\n\n//# sourceURL=webpack:///./src/styles/App.css?./node_modules/css-loader??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".rsqzJuBtHOxUdmSbZOCyE {\\r\\n    background-color: #f5f5f5;\\r\\n    color: #222;\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    flex-wrap: nowrap;\\r\\n    justify-content: center;\\r\\n    align-items: center;\\r\\n    align-content: center;\\r\\n    width: 99vw;\\r\\n    height: 98vh;\\r\\n}\\r\\n\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"TodoApp\": \"rsqzJuBtHOxUdmSbZOCyE\"\n};\n\n//# sourceURL=webpack:///./src/styles/App.css?./node_modules/css-loader??ref--5-1");
 
 /***/ }),
 
@@ -89,7 +89,18 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"._2IVMxxz_aGMy5tW2TK-Puw {\\r\\n    color: #6495ed;\\r\\n    align-self: flex-start;\\r\\n}\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"AppTitle\": \"_2IVMxxz_aGMy5tW2TK-Puw\"\n};\n\n//# sourceURL=webpack:///./src/styles/Title.css?./node_modules/css-loader??ref--5-1");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"._2IVMxxz_aGMy5tW2TK-Puw {\\r\\n    color: #6495ed;\\r\\n}\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"AppTitle\": \"_2IVMxxz_aGMy5tW2TK-Puw\"\n};\n\n//# sourceURL=webpack:///./src/styles/Title.css?./node_modules/css-loader??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js??ref--5-1!./src/styles/TodoList.css":
+/*!*********************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./src/styles/TodoList.css ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"._1OdBkfGv91cqKZ4QJbOAC9 {\\r\\n    border: dashed 1px #8b0000;\\r\\n    width: 500px;\\r\\n    height: 35px;\\r\\n    padding: 5px;\\r\\n    margin: 5px;\\r\\n    list-style: none;\\r\\n    background-color: #8b0000;\\r\\n    color: #ffffff;\\r\\n    text-align: center;\\r\\n    font-size: 25px;\\r\\n}\\r\\n\\r\\n._1OdBkfGv91cqKZ4QJbOAC9:hover {\\r\\n    cursor: pointer;\\r\\n    background-color: #b22222;\\r\\n}\\r\\n\\r\\n.myTIO6N3EjEKECn3VsngL {\\r\\n    padding: 0;\\r\\n}\", \"\"]);\n\n// exports\nexports.locals = {\n\t\"ListItem\": \"_1OdBkfGv91cqKZ4QJbOAC9\",\n\t\"List\": \"myTIO6N3EjEKECn3VsngL\"\n};\n\n//# sourceURL=webpack:///./src/styles/TodoList.css?./node_modules/css-loader??ref--5-1");
 
 /***/ }),
 
@@ -453,7 +464,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar TodoList = function TodoList(props) {\n    return _react2.default.createElement(\n        'ul',\n        null,\n        props.data.map(function (item) {\n            return _react2.default.createElement(\n                'li',\n                { onClick: function onClick() {\n                        props.remove(item.id);\n                    }, key: item.id },\n                item.text\n            );\n        })\n    );\n};\n\nexports.default = TodoList;\n\n//# sourceURL=webpack:///./src/components/TodoList.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _TodoList = __webpack_require__(/*! ../styles/TodoList.css */ \"./src/styles/TodoList.css\");\n\nvar _TodoList2 = _interopRequireDefault(_TodoList);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar TodoList = function TodoList(props) {\n    return _react2.default.createElement(\n        'ul',\n        { className: _TodoList2.default.List },\n        props.data.map(function (item) {\n            return _react2.default.createElement(\n                'li',\n                {\n                    onClick: function onClick() {\n                        props.remove(item.id);\n                    },\n                    key: item.id,\n                    className: _TodoList2.default.ListItem },\n                item.text\n            );\n        })\n    );\n};\n\nexports.default = TodoList;\n\n//# sourceURL=webpack:///./src/components/TodoList.js?");
 
 /***/ }),
 
@@ -500,6 +511,17 @@ eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader??re
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!./Title.css */ \"./node_modules/css-loader/index.js??ref--5-1!./src/styles/Title.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/styles/Title.css?");
+
+/***/ }),
+
+/***/ "./src/styles/TodoList.css":
+/*!*********************************!*\
+  !*** ./src/styles/TodoList.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader??ref--5-1!./TodoList.css */ \"./node_modules/css-loader/index.js??ref--5-1!./src/styles/TodoList.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/styles/TodoList.css?");
 
 /***/ })
 
