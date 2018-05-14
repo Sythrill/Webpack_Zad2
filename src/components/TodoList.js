@@ -12,8 +12,3 @@ const TodoList = ({data, remove}) => {
 };
 
 export default TodoList;
-
-
-
-
-
