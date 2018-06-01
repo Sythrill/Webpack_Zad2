@@ -1,0 +1,27 @@
+.formInput {
+    border-color: darkolivegreen;
+    height: 35px;
+    width: 300px;
+    margin: 2px;
+    font-size: 20px;
+}
+
+.formButton {
+    background-color: darkolivegreen;
+    border-color: darkolivegreen;
+    height: 39px;
+    width: 37px;
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 3px;
+}

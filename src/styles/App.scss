@@ -1,0 +1,14 @@
+@import 'appColors';
+
+.TodoApp {
+  background-color:$background-color;
+  color:$title-color;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 99vw;
+  height: 98vh;
+}
