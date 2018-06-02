@@ -1,0 +1,26 @@
+.formInput {
+  border-color: #556b2f;
+  height: 35px;
+  width: 300px;
+  margin: 2px;
+  font-size: 20px; }
+
+.formButton {
+  background-color: #556b2f;
+  border-color: #556b2f;
+  height: 39px;
+  width: 37px;
+  color: white;
+  font-size: 20px;
+  margin: 2px; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 3px; }
+
+/*# sourceMappingURL=TodoForm.css.map */

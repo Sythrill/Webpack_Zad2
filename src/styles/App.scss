@@ -1,6 +1,8 @@
+@import 'appColors';
+
 .TodoApp {
-  background-color: #f5f5f5;
-  color: #222;
+  background-color: $background-color;
+  color: $title-color;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -8,6 +10,5 @@
   align-items: center;
   align-content: center;
   width: 100vw;
-  height: 100vh; }
-
-/*# sourceMappingURL=App.css.map */
+  height: 100vh;
+}

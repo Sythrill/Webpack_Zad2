@@ -1,0 +1,29 @@
+@import "appColors";
+
+.formInput {
+  border-color: $border-color;
+  height: 35px;
+  width: 300px;
+  margin: 2px;
+  font-size: 20px;
+}
+
+.formButton {
+  background-color: $button-color;
+  border-color: $button-border;
+  height: 39px;
+  width: 37px;
+  color: white;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 3px;
+}
