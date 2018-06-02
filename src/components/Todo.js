@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../styles/TodoList.css';
+import style from '../styles/TodoList.scss';
 
 const Todo = ({item, remove}) => {
 

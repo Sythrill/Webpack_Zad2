@@ -1,3 +1,5 @@
+@import "appColors";
+
 .ListItem {
   border: dashed 1px #8b0000;
   width: 500px;
@@ -5,16 +7,17 @@
   padding: 5px;
   margin: 5px;
   list-style: none;
-  background-color: #8b0000;
-  color: #ffffff;
+  background-color: $list-item-color;
+  color: $list-item-text-color;
   text-align: center;
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 .ListItem:hover {
   cursor: pointer;
-  background-color: #b22222; }
+  background-color: $list-item-hover;
+}
 
 .List {
-  padding: 0; }
-
-/*# sourceMappingURL=TodoList.css.map */
+  padding: 0;
+}

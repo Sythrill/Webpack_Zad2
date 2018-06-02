@@ -1,6 +1,6 @@
 import React from 'react';
 import uuid from 'uuid';
-import style from '../styles/App.css';
+import style from '../styles/App.scss';
 import Title from '../components/Title';
 import TodoList from '../components/TodoList';
 import {hot} from 'react-hot-loader'

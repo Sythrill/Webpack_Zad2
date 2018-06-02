@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,SAAU;EACR,KAAK,ECFO,IAAI",
+"sources": ["Title.scss","appColors.scss"],
+"names": [],
+"file": "Title.css"
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../styles/TodoForm.css';
+import style from '../styles/TodoForm.scss';
 
 const TodoForm = (props) => {
 

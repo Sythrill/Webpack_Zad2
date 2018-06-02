@@ -1,18 +1,22 @@
+@import "appColors";
+
 .formInput {
-  border-color: #556b2f;
+  border-color: $border-color;
   height: 35px;
   width: 300px;
   margin: 2px;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .formButton {
-  background-color: #556b2f;
-  border-color: #556b2f;
+  background-color: $button-color;
+  border-color: $button-border;
   height: 39px;
   width: 37px;
   color: white;
   font-size: 20px;
-  margin: 2px; }
+  margin: 2px;
+}
 
 .container {
   display: flex;
@@ -21,6 +25,5 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 3px; }
-
-/*# sourceMappingURL=TodoForm.css.map */
+  padding: 3px;
+}
